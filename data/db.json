@@ -1,0 +1,10 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "New post",
+      "datetime": "June 06, 2024 10:18:08 PM",
+      "body": "catch (err) {\n      if (err.response) {\n        console.log(err.response.data);\n        console.log(err.response.status);\n        console.log(err.response.headers);\n      } else {\n        console.log(`Error: ${err.message}`);\n      }\n    }"
+    }
+  ]
+}
